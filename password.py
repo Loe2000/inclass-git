@@ -1,5 +1,10 @@
 #Password generator - Write a program that takes in a number as input and returns a password of that length.
+import random
+import string
+
 def password(a):
-    print("password :)")
+    string.ascii_letters
+    print(random.choice(string.ascii_letters))
+
 
 password(7)
