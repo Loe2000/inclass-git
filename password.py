@@ -3,8 +3,9 @@ import random
 import string
 
 def password(a):
-    string.ascii_letters
-    print(random.choice(string.ascii_letters))
+    for x in range(a):
+        string.ascii_letters
+        print(random.choice(string.ascii_letters), end="")
 
 
 password(7)
